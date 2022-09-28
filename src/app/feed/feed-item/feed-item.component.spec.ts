@@ -40,5 +40,3 @@ describe('FeedItemComponent', () => {
     expect(([].slice.call(paragraphs)).map((x) => x.innerText)).toContain(feedItemMocks[0].caption);
   });
 });
-
-//docker build
